@@ -10,9 +10,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:background="#615B5B"
         android:onClick="@{() -> viewModel.onButtonClicked()}"
         android:text="@{viewModel.title}"
-        app:backgroundTint="#B3B3B3"
         tools:text="Sound name" />
 </layout>
