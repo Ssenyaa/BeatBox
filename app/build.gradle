@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'mai.team5.lab3'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "mai.team5.lab3"
         minSdk 19
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -21,6 +21,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+    dataBinding {
+        enabled = true
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
